@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\zolot\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Projects\\New\\ZolotowM_GUN32_U\\",
+  "WorkspaceRootPath": "C:\\Projects\\New\\ZolotowM_GUN32_U\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{519D1108-1792-276E-FBE5-E926D467E32E}|Assembly-CSharp-Editor.csproj|c:\\users\\zolot\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\projects\\new\\zolotowm_gun32_u\\assets\\scripts\\legacy\\editor\\legacytransmissionsettingseditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B16CE7E6-7AD1-B479-8672-9BFAEB4941C8}|Assembly-CSharp.csproj|c:\\projects\\new\\zolotowm_gun32_u\\assets\\textmesh pro\\shaders\\two_sides_shaders.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{B16CE7E6-7AD1-B479-8672-9BFAEB4941C8}|Assembly-CSharp.csproj|solutionrelative:assets\\textmesh pro\\shaders\\two_sides_shaders.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{519D1108-1792-276E-FBE5-E926D467E32E}|Assembly-CSharp-Editor.csproj|c:\\projects\\new\\zolotowm_gun32_u\\assets\\scripts\\legacy\\editor\\legacytransmissionsettingseditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{519D1108-1792-276E-FBE5-E926D467E32E}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\scripts\\legacy\\editor\\legacytransmissionsettingseditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,10 +23,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Two_sides_shaders.shader",
+              "DocumentMoniker": "C:\\Projects\\New\\ZolotowM_GUN32_U\\Assets\\TextMesh Pro\\Shaders\\Two_sides_shaders.shader",
+              "RelativeDocumentMoniker": "Assets\\TextMesh Pro\\Shaders\\Two_sides_shaders.shader",
+              "ToolTip": "C:\\Projects\\New\\ZolotowM_GUN32_U\\Assets\\TextMesh Pro\\Shaders\\Two_sides_shaders.shader",
+              "RelativeToolTip": "Assets\\TextMesh Pro\\Shaders\\Two_sides_shaders.shader",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2024-08-08T17:02:46.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "LegacyTransmissionSettingsEditor.cs",
-              "DocumentMoniker": "C:\\Users\\zolot\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Projects\\New\\ZolotowM_GUN32_U\\Assets\\Scripts\\Legacy\\Editor\\LegacyTransmissionSettingsEditor.cs",
+              "DocumentMoniker": "C:\\Projects\\New\\ZolotowM_GUN32_U\\Assets\\Scripts\\Legacy\\Editor\\LegacyTransmissionSettingsEditor.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Legacy\\Editor\\LegacyTransmissionSettingsEditor.cs",
-              "ToolTip": "C:\\Users\\zolot\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Projects\\New\\ZolotowM_GUN32_U\\Assets\\Scripts\\Legacy\\Editor\\LegacyTransmissionSettingsEditor.cs",
+              "ToolTip": "C:\\Projects\\New\\ZolotowM_GUN32_U\\Assets\\Scripts\\Legacy\\Editor\\LegacyTransmissionSettingsEditor.cs",
               "RelativeToolTip": "Assets\\Scripts\\Legacy\\Editor\\LegacyTransmissionSettingsEditor.cs",
               "ViewState": "AQIAACMAAAAAAAAAAAAowDIAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
