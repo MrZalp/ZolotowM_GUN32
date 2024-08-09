@@ -741,8 +741,8 @@ GameObject:
   - component: {fileID: 7625661863489846113}
   - component: {fileID: 320501392570000503}
   - component: {fileID: 8168135611866768502}
-  - component: {fileID: 7482753700304490696}
   - component: {fileID: 8210577513767154723}
+  - component: {fileID: 3532003372335221431}
   m_Layer: 0
   m_Name: TankFree_Body
   m_TagString: Untagged
@@ -853,7 +853,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7386226842182379939}
   serializedVersion: 4
-  m_Mass: 3000
+  m_Mass: 1000
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -884,36 +884,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b3e21422e254466810369536a65b19b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _accelerationPower: 1
+  _accelerationPower: 0.909
   _fireDelaySec: 1
---- !u!114 &7482753700304490696
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7386226842182379939}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7936c83141e145379cdc9908d427b98b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _wheels:
-  - {fileID: 1252183354728537386}
-  - {fileID: 4071346300828187028}
-  - {fileID: 4120510419183160610}
-  - {fileID: 6348248054122703447}
-  _skidAudioSource: {fileID: 0}
-  _transmission: {fileID: 11400000, guid: f71c1064acb048f46968a0b94a0c118a, type: 2}
-  _maxSteerAngle: 25
-  _maxHandbrakeTorque: 100
-  _centreOfMass: {x: 0, y: 0, z: 0}
-  _downforce: 100
-  _slipLimit: 0.3
-  _reverseMult: 0.4
-  _maxSpeedFOV: 200
-  _fov: {x: 40, y: 40}
-  _debugTorque: 0
 --- !u!82 &8210577513767154723
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1010,6 +982,34 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &3532003372335221431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7386226842182379939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7936c83141e145379cdc9908d427b98b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _wheels:
+  - {fileID: 4071346300828187028}
+  - {fileID: 1252183354728537386}
+  - {fileID: 4120510419183160610}
+  - {fileID: 6348248054122703447}
+  _skidAudioSource: {fileID: 8210577513767154723}
+  _transmission: {fileID: 11400000, guid: f71c1064acb048f46968a0b94a0c118a, type: 2}
+  _maxSteerAngle: 25
+  _maxHandbrakeTorque: 3.4028235e+38
+  _centreOfMass: {x: 0, y: 0, z: 0}
+  _downforce: 100
+  _slipLimit: 0.3
+  _reverseMult: 0.4
+  _maxSpeedFOV: 200
+  _fov: {x: 40, y: 40}
+  _debugTorque: 0
 --- !u!1 &7763950340967116764
 GameObject:
   m_ObjectHideFlags: 0
@@ -1050,7 +1050,7 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7763950340967116764}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
